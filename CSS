@@ -1,0 +1,52 @@
+$primary_1:#0000FF
+$primary_2:#FFFF00
+$primary_3:#FF0000
+.header{
+  background-color:$primary_1;
+}
+.body{
+  color:$primary_2;
+}
+.footer{
+  background-color:$primary_3;
+}
+}
+  body{
+    width:150px;
+    height:150px;
+    
+    animation-name:my page;
+    animation-duration:5s;
+  }
+  @keyframes my page{
+    from{background-color:red;}
+    to{background-color:yellow;}
+  } 
+h1{
+  text-align:center;
+  color:blue;
+}
+h2{
+  color:red;
+}
+.emoji{
+  font-family:emoji;
+  margin:20px;
+}
+.wrapper {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+  background-color:black;
+}
+img{
+  border-radius:1px;
+  padding:5px;
+  width:180px;
+}
+.grid-container {
+  display: grid;
+
+  min-height: 80vh;
+  margin-top: 4rem;
+  gap: 0.5rem;
+}
